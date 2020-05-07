@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - AnoopDemo-CardDemo</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/video.js/7.6.6/video-js.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+                                       <div id="app">
+  <div class="video-wrapper">
+    <span class="live-pill">Zalando Live</span>
+    <video
+      id="twitch-videojs"
+      class="video-js vjs-fluid vjs-big-play-centered"
+      autoplay
+      playsinline
+    ></video>
+
+ 
+<div id="make-3D-space">
+    <div id="product-card">
+        <div id="product-front">
+        	<div class="shadow"></div>
+   <!--      <img src= "TShirtFront" alt=""/> -->
+          <div id = "TShirtFront">
+          </div>
+          <div class="image_overlay"></div>
+            <div id="view_details">View details</div>
+            <div class="stats">        	
+                <div class="stats-container">
+                    <span class="product_price" id="Pricy"></span>
+                    <span class="product_name" id="Namey"></span>    
+                    <p id="descry"></p>                                            
+                    
+                    <div class="product-options">
+                    <strong>SIZES</strong>
+                    <span id="sizy"></span>
+                    <strong>COLORS</strong>
+                    <div class="colors">
+                        <div class="c-blue"><span></span></div>
+                        <div class="c-red"><span></span></div>
+                        <div class="c-white"><span></span></div>
+                        <div class="c-green"><span></span></div>
+                    </div>
+                </div>                       
+                </div>                         
+            </div>
+        </div>
+        <div id="product-back">
+	        <div class="shadow"></div>
+            <div id="carousel">
+                <ul>
+                    <li>
+                    <div id = "back1">
+          </div>
+                  </li>
+                    <li>    <div id = "back2">
+          </div></li>
+                    <li>    <div id = "back3">
+          </div></li>
+                </ul>
+                <div class="arrows-perspective">
+                    <div class="carouselPrev">
+                        <div class="y"></div>
+	                    <div class="x"></div>
+                    </div>
+                    <div class="carouselNext">
+                        <div class="y"></div>
+	                    <div class="x"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="flip-back">
+            	<div id="cy"></div>
+                <div id="cx"></div>
+            </div>
+        </div>	  
+    </div>	
+</div>	
+    
+     </div>
+</div>
+                
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/video.js/7.6.6/video.min.js'></script>
+<script src='https://player.live-video.net/0.9.4/videojs-hls-tech.min.js'></script>
+<script src='https://player.live-video.net/0.9.4/videojs-quality-plugin.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
