@@ -99,7 +99,7 @@ $(document).ready(function(){
 	});
 });
 
-const DEFAULT_STREAM = "https://d7b6438397fc.us-west-2.playback.live-video.net/api/video/v1/aws.ivs.us-west-2.592423023374.channel.BYrTZEq4UiqS.m3u8";
+const DEFAULT_STREAM = "https://d7b6438397fc.us-west-2.playback.live-video.net/api/video/v1/aws.ivs.us-west-2.592423023374.channel.BhYpNiqtxalR.m3u8";
 
 // Initialize player
 (function() {

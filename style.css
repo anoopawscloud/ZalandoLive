@@ -15,9 +15,8 @@ body {
     transform-style: preserve-3d;
     transition: transform 5s;
     position:absolute;    
-    top:-30px;
-    left:-40%;	
-    margin-left:-167px;
+  z-index: 4;
+     left:104%;
 }
 #product-front, #product-back{
 	width:335px;
@@ -443,18 +442,18 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
 }
 
 body {
-  overflow: hidden;
+  overflow: auto;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", sans-serif;
   background: linear-gradient(180deg, #232f3e 75.66%, #503640 100%);
   background-image:url(https://testingfordemopurpose.s3.amazonaws.com/tempZalando.png);
     background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
 }
 
 #app {
@@ -462,14 +461,17 @@ body {
   display: grid;
   place-items: center;
   transition: all .25s ease-in;
+        
 }
 
 .video-wrapper {
   width: 40%;
-  position: relative;
+  position: absolute;
   display: flex;
   flex-direction: column;
   border-radius: 6px;
+      top:300px;
+    left:28%;
   z-index: 3;
 }
 
